@@ -47,7 +47,7 @@ st.markdown("""
 
 
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-docsearch = FAISS.load_local(r"..\Notebooks\faiss_index", embedding_model, allow_dangerous_deserialization=True)
+docsearch = FAISS.load_local(r"index", embedding_model, allow_dangerous_deserialization=True)
 
 model_id = "tiiuae/falcon-rw-1b"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
