@@ -1,6 +1,7 @@
 📘 RAG System with Agentic AI and OCR-Enhanced Query
 
 📑 Table of Contents
+
 Project Overview
 
 Installation
